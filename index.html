@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>What Metropolitan Area is the Best For You?</h1>
+
+    <h2>What food would you choose?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Ffalafel.jpeg?v=1596683328165"
+        />
+        <br />
+        <button id="q1a1">Falafel</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fbacon%20wrapped%20hotdog.jpeg?v=1596683254636"
+        />
+        <br />
+        <button id="q1a2">bacon wrapped hot dog</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fdeep%20dish%20pizza.jpeg?v=1596683254086"
+        />
+        <br />
+        <button id="q1a3">deep dish pizza</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fchicken%20and%20waffles.jpg?v=1596683258423"
+        />
+        <br />
+        <button id="q1a4">chicken and waffles</button>
+      </div>
+    </div>
+
+    <h2>What apartment view would you choose?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fnew%20york%20apartment%20view.jpg?v=1596683256801"
+        />
+        <br />
+        <button id="q2a1">View 1</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Flos%20angeles%20apartment%20view.jpg?v=1596683258825"
+        />
+        <br />
+        <button id="q2a2">View 2</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fchicago%20apartment%20view.jpeg?v=1596683254235"
+        />
+        <br />
+        <button id="q2a3">View 3</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fatlanta%20apartment%20view.jpeg?v=1596683255466"
+        />
+        <br />
+        <button id="q2a4">View 4</button>
+      </div>
+    </div>
+
+    <h2>What occupation would you choose?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fmodel.jpeg?v=1596683254318"
+        />
+        <br />
+        <button id="q3a1">model</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Factor.jpeg?v=1596683254263"
+        />
+        <br />
+        <button id="q3a2">actor</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fdata%20scientist.jpeg?v=1596683255130"
+        />
+        <br />
+        <button id="q3a3">data scientist</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fmarketing%20manager.png?v=1596683254433"
+        />
+        <br />
+        <button id="q3a4">marketing manager</button>
+      </div>
+    </div>
+    
+    <h2>What is your favorite season?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fwinter.jpeg?v=1596766667412"
+        />
+        <br />
+        <button id="q4a1">winter</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fsummer.jpeg?v=1596766668684"
+        />
+        <br />
+        <button id="q4a2">summer</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Ffall.jpeg?v=1596766666670"
+        />
+        <br />
+        <button id="q4a3">fall</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/06470634-04ef-4c37-8a3c-53d31778c790%2Fspring.jpeg?v=1596766666251"
+        />
+        <br />
+        <button id="q4a4">spring</button>
+      </div>
+    </div>
+
+    <div class="result">
+      <h2 id="result">Your result is...</h2>
+    </div>
+  </body>
+</html>
